@@ -6,23 +6,11 @@ public class Deck {
 
    public Deck(){
       deck = new ArrayList<Card>();
-      for(int i = 0; i < 4; i++){
-        for(int j = 2; j < 15; j++){
-          switch(i){
-            case 0:
+      for(int j = 2; j < 15; j++){
               deck.add(new Card(j,"h"));
-              break;
-            case 1:
               deck.add(new Card(j,"s"));
-              break;
-            case 2:
               deck.add(new Card(j,"d"));
-              break;
-            case 3:
               deck.add(new Card(j,"c"));
-              break;
-          }
-        }
       }
    }
 
