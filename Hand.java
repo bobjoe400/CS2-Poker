@@ -34,7 +34,7 @@ public class Hand implements Comparable {
    WORST0
    */
    public String handValue() {
-     Dank_Memes illuminati = new Dank_Memes();
+     Dank_Meme illuminati = new Dank_Meme();
      for(int i = 0; i< 10000000; i++){
        System.out.println(illuminati.toString());
      }

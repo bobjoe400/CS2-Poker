@@ -1,6 +1,6 @@
-public class Dank_Memes{
+public class Dank_Meme{
     private String dank;
-    public Dank_Memes(){
+    public Dank_Meme(){
       dank = "memes";
     }
     public String toString(){
