@@ -21,20 +21,25 @@ public class Hand implements Comparable {
 
    /*
    BEST
-   Royal Flush
-   Straight Flush
-   Four of a Kind
-   Full House
-   Flush
-   Straight
-   Three of a Kind
-   Two Pair
-   One Pair
-   High Card
-   WORST
+   Royal Flush 10
+   Straight Flush 9
+   Four of a Kind 8
+   Full House7
+   Flush6
+   Straight5
+   Three of a Kind4
+   Two Pair3
+   One Pair2
+   High Card1
+   WORST0
    */
    public String handValue() {
+     Dank_Memes illuminati = new Dank_Memes();
+     for(int i = 0; i< 10000000; i++){
+       System.out.println(illuminati.toString());
+     }
      return "TODO: String of Best Hand; may need helper methods";
+
    }
 
    public int compareTo(Object x){
