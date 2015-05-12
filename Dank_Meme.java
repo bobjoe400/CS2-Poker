@@ -1,7 +1,7 @@
 public class Dank_Meme{
     private String dank;
     public Dank_Meme(){
-      dank = "memes";
+      dank = "meme";
     }
     public String toString(){
       return "dank "+dank;
