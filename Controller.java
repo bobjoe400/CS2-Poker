@@ -35,6 +35,8 @@ public class Controller
 
    public static String findWinner(){
       int result = hand1.compareTo(hand2);
-      return "TODO: Who wins?";
+      if(result == 1) return "Player 1 wins!";
+      if(result == -1) return "Player 2 wins!";
+      return "It was a TIE!";
    }
 }
